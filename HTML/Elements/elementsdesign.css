@@ -1,0 +1,19 @@
+/* p is an block element thats 
+why its bg takes whole lines width  */
+p{
+    background-color: antiquewhite;
+}
+
+/* a is an ancor tag which 
+takes a space as per requirment  */
+a{
+    background-color: rgb(40, 148, 175);
+}
+
+div{
+    background-color: bisque;
+}
+
+span{
+    background-color: aquamarine;
+}
