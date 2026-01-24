@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+</head>
+<body>
+    <h1>Form to apply for internship</h1>
+    <form action="post" >
+        <div>
+           <label for="username">Enter your username </label>
+        <input type="text" id="username" name="username" placeholder="Enter your name" autofocus>
+        </div>
+        <div>
+            <input type="radio" name="gender" id="male" value="male">
+            <label for="male">Male</label>
+            <input type="radio" name="gender" id="female" value="female">
+            <label for="female">Female</label>
+        </div>
+
+        <div>
+            <label for="lang">Languages</label><br>
+            <input type="checkbox" name="lang" id="python" value="python">
+            <label for="python">Python</label>
+            <input type="checkbox" name="lang" id="cpp" value="cpp">
+            <label for="cpp">C++</label>
+            <input type="checkbox" name="lang" id="java" value="java">
+            <label for="java">Java</label>
+            <input type="checkbox" name="lang" id="javascript" value="javascript">
+            <label for="javascript">Javascript</label>
+        </div>
+        <div>
+            <label for="intro">Introduction</label><br>
+            <textarea required id="intro" name="intro" rows="4" cols="40" >Tell us about yourself...</textarea>
+        </div>
+        <div>
+            <label for="types">Select a type of internship you are intrested in</label>
+            <select name="internship" id="types">
+                <option value="learning">Learning</option>
+                <option value="project">Project</option>
+                <option value="paid">Paid</option>
+            </select>
+        </div>
+    </form>
+</body>
+</html>

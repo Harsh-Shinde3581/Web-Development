@@ -1,0 +1,11 @@
+/* dot is used for classes  */
+.red{
+      background-color: red;
+}
+
+.bg-yellow{
+    background-color: yellow ;
+}
+#firstdiv{
+    background-color: rgb(165, 42, 116);
+}
