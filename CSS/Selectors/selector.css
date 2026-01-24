@@ -1,0 +1,36 @@
+.box:first-child{
+    background-color: rgb(224, 42, 42);
+}
+
+.box:nth-child(2):first-line{
+    background-color: yellow;
+    color: red ;
+}
+
+.boxes *{
+ color: blue;
+ border:2px solid black;
+}
+
+.box,[data-color="primary"]{
+    margin-top:45px ;
+}
+
+.box:nth-child(even){
+    background-color: orange;
+}
+
+.boxes::before{
+    content: "Harry is good";
+    color: blue;
+}
+
+.boxes::after{
+    content: "Sigma course is also good";
+    color: brown;
+}
+
+.boxes::selection{
+    color: aqua;
+    background-color: rgb(52, 47, 47);
+}

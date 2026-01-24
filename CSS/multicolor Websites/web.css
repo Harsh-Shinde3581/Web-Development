@@ -1,0 +1,25 @@
+ul li{
+    list-style: none;
+    display:inline;
+    padding: 20px;
+
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    background-color:var(--primary-color) ;
+    padding: 20px;
+}
+
+:root{
+    --primary-color:rgba(69, 133, 222, 0.763);
+    --text-color:white;
+    --secondary-color:orange;
+}
+
+body{
+    background-color: var(--secondary-color);
+}

@@ -1,0 +1,41 @@
+/* Element Selector  */
+/* div{
+    background: #000 ;
+} */
+/* class selector  */
+.red{
+    color: black;background: red;
+}
+#green{
+    color: green;background: yellow;
+}
+/* child selector  */
+div > p {
+    color: rgb(84, 161, 229); background: blanchedalmond ;
+}
+/* desendent selector  */
+div span{
+    color: aquamarine; background: orange;
+}
+/* universal selector  */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* pseudo selectors  */
+a:visited{
+    color: rgb(213, 167, 97);
+}
+a:active{
+    background: red;
+}
+a:link{
+   color: rgb(202, 109, 109); 
+}
+a:hover{
+    background: yellow;
+}
+p:first-child{
+    background: purple;
+}

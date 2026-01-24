@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* pixle is 96th of pixle  */
+.box{
+    box-sizing: border-box;
+    border:2px solid black;
+    /* width: 1536px;full screen  */
+    width: 80vw;
+    height: 10vh;
+    /* vw = viewport width  */
+    background-color: aquamarine;
+    margin: auto;    
+}
+
+.container{
+    box-sizing: border-box;
+    border:2px solid black;
+    width: 80vw;
+    height: 80vh;
+    font-size: 16px;
+    background-color: aquamarine;
+    margin: 23px auto;  
+}
+
+.container p{
+    /* font-size: 1em; */
+    font-size: 2rem;
+}
+.mycont{
+    background-color: red;
+    color: yellow;
+    font-size: 22px;
+    width: 100vmin;
+}

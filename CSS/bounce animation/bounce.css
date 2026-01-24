@@ -1,0 +1,31 @@
+.container{
+    height: 55vh;
+    width: 65vw;
+    background-color: rgb(169, 202, 231);
+    border: 5px solid black;
+    position: relative;
+}
+
+.ball{
+    height: 40px;
+    width: 40px;
+    background-color: rgb(195, 72, 15);
+    border: 2px rgb(104, 36, 5) ;
+    border-radius: 70px;
+    position: absolute;
+    animation: bouncey  1s ease-out infinite alternate ,bouncex 3s linear infinite  ;
+    /* animation: name duration timing-function delay iteration-count direction -mode; */
+
+}
+
+    @keyframes bouncex {
+        from{left:0;} 
+        to {left:100%;} 
+    }
+
+    @keyframes bouncey {
+        from{bottom:0;}
+        to{bottom:100%;}
+    }
+
+

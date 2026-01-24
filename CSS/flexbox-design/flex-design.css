@@ -1,0 +1,112 @@
+/* Main nav container with flex properties */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 20px;
+    height: 50px;
+    background-color: #f9f9f9; /* Light background */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Logo styling */
+.logo img{
+    width: 140px;
+    border-radius: 4px;
+}
+
+/* Align list horizontally with spacing */
+.right ul {
+    display: flex;
+    gap: 25px;
+    margin: 0;
+    padding: 0;
+}
+
+/* Remove bullets and style list items */
+.right ul li {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    font-family: sans-serif;
+    font-size: 16px;
+    cursor: pointer;
+    transition: color 0.3s ease, transform 0.2s ease;
+}
+
+/* Hover effect */
+.right ul li:hover {
+    color: rgb(54, 83, 201);
+    transform: scale(1.05);
+}
+
+.first{
+    display: flex;
+    flex-direction:column ;
+    justify-content: center;
+    align-items: center;
+    gap: 33px;
+    margin: 60px;
+    font-family: sans-serif;
+}
+.first span{
+    font-size: 26px;
+}
+.first p{
+    font-size: 18px;
+    width: 60vw;
+    text-align: center;
+}
+.btn{
+    background-color: #81b5e2;
+    padding: 5px;
+    border-radius: 6px;
+    border: none;
+    font-weight: 500;
+    color: white;
+    margin: 12px 0;
+}
+.green{
+    background: rgb(21, 182, 21);
+}
+.flex{
+    display: flex;
+}
+.small{
+    font-size: 12px;
+    text-align: center;
+}
+.second{
+    max-width: 55vw;
+    margin: auto;
+}
+.items{
+    background-color: rgb(212, 212, 212);
+    padding: 22px;
+    border-radius: 6px;
+}
+.item-lang{
+    font-weight: 700;
+    padding: 35px;
+    font-size: 12px;
+    text-align: center;
+}
+.grid{
+    display:grid ;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+}
+.items .buttons{
+    display: flex;
+    gap: 18px;
+}
+.Download :nth-child(1){
+    font-size: 19px;
+}
+@media screen and (max-width:900px){
+    .grid{
+        grid-template-columns: 1fr;
+        gap: 12px;
+        display: grid;
+    }
+}
