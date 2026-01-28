@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    background-image: url(assets/bg.jpg);
+    height: 80vh;
+    position: relative;
+    background-position: center center;
+}
+
+.main .box{
+    height: 80vh;
+    width: 100%;
+    opacity: 0.5;
+    background-color: black;
+    position: absolute;
+    top: 0;
+}
+nav{
+    position: relative;
+    width: 80vw;
+    margin: auto;
+    height: 10vh;
+    z-index: 10;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav .logo{
+    width: 150px;
+    height: 40px;
+    background-image: url(assets/logo.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 70vw;
+    color: white;
+    position: relative;
+}
